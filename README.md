@@ -123,17 +123,36 @@ Edit tsconfig.json to include:
 ```json
 {
   "compilerOptions": {
-    "target": "ES6",
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
     "module": "commonjs",
-    "strict": true,
+    "moduleResolution": "node",
     "outDir": "./dist",
     "rootDir": "./src",
-    "sourceMap": true
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
 ```
+
+## Step 8.5: Install Node.js Type Definitions
+
+TypeScript doesn’t automatically know about Node.js globals (like `process`, `__dirname`, or `require`) unless you install the Node type definitions.
+
+Run:
+
+```bash
+npm install --save-dev @types/node
+```
+
+💡 Note:
+This package doesn’t install any actual code — it just gives TypeScript the “blueprints” for all the built-in features of Node.js so you get autocompletion, error-checking, and IntelliSense in VS Code.
+Think of it as teaching TypeScript what Node.js can do.
 
 ## Step 9: Add Scripts to package.json
 
