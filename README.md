@@ -208,12 +208,13 @@ dist/
 
 ## 👋 About the Author
 
-Hi! I’m **Phillip Cantu**, an American digital nomad and Full Sail University web development student.  
-I’m passionate about creating modern, user-friendly, and practical applications that help people learn and build faster.
+Hi! I’m Phillip Cantu, an American digital nomad, a Full Sail University web development student, and a [4Geeks Academy Full Stack Development with AI Bootcamp](https://4geeksacademy.com/us/apply?ref=REFERRALQEZPTJCK-17696). I’m passionate about creating modern, user-friendly, and practical applications that help people learn and build faster.
 
-You can find me here:  
-- **GitHub:** [hereisphil](https://github.com/hereisphil)  
-- **Instagram:** [@philtheotaku](https://www.instagram.com/philtheotaku/)  
+You can find me here:
+
+- **GitHub:** [hereisphil](https://github.com/hereisphil)
+- **LinkedIn:** [PhillipCantu](https://www.linkedin.com/in/phillipcantu/)
+- **Instagram:** [@philtheotaku](https://www.instagram.com/philtheotaku/)
 
 If this guide helped you, feel free to share it with others who are getting started with TypeScript!
 ✅ You’re now running the battle-tested dev loop:
